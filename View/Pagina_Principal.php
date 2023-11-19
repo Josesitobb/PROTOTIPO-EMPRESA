@@ -39,7 +39,10 @@ $_SESSION['nombreUsuario'] = $nombreUsuario;
   <!-- <a href="./Pagina_Agregar_Usuario.php" class="btn btn-secondary" id="Boton_Agregar">AGREGAR NUEVO USUARIO</a> -->
 
   <!-- TABLA ENCABEZADO  -->
-  <table class="table table-dark table-striped" id="Datos">
+  <div class="container">
+
+  <table class="table table-primary" id="Datos" style="margin-top: 100px;">
+
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -77,8 +80,10 @@ $_SESSION['nombreUsuario'] = $nombreUsuario;
           <td><?php echo $filas['USUARI_Cargo_____b'] ?></td>
           <td>
             <div class="Botones">
-              <a href="../Controllers/Eliminar_usuario.php?USUARI_ConsInte__b=<?php echo $filas['USUARI_ConsInte__b'] ?>" class="btn btn-secondary" id=Botones>ELIMINAR</a>
-              <a href="Pagina_Editar_Usuarios.php?USUARI_ConsInte__b=<?php echo $filas['USUARI_ConsInte__b'] ?>" class="btn btn-secondary" id="Botones">Editar</a>
+            
+              <a href="../Controllers/Eliminar_usuario.php?USUARI_ConsInte__b=<?php echo $filas['USUARI_ConsInte__b'] ?>" class="btn btn-primary" id=Botones >ELIMINAR</a>
+              <br> <br>
+              <a href="Pagina_Editar_Usuarios.php?USUARI_ConsInte__b=<?php echo $filas['USUARI_ConsInte__b'] ?>" class="btn btn-primary" id="Botones">Editar</a>
             </div>
           </td>
         </tr>
@@ -87,6 +92,10 @@ $_SESSION['nombreUsuario'] = $nombreUsuario;
   <?php  }  ?>
   </table>
 
+    
+  </div>
+
+ 
 
 </body>
 
