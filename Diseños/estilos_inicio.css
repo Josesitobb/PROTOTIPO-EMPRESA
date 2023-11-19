@@ -1,0 +1,36 @@
+.container{
+    background: #ee9ca7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin-top: 150px;
+    width: 500px;
+    height: 260PX;
+    text-align: center;
+    border-radius: 10PX;
+   
+  
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+
+}
+
+
+#floatingInput{
+    margin-top: 20px;
+}
+
+#floatingPassword{
+    margin-bottom: 20px;
+    
+    
+}
+
+body{
+    /* background-image:url(https://images4.alphacoders.com/133/thumb-1920-1331291.png); */
+    background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: auto;
+    width: auto;
+}

@@ -1,0 +1,42 @@
+
+input[type="time"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 14px;
+    
+}
+input[type="time"]{
+display: flex;
+margin-left: 5px;
+margin-bottom: 20px;
+justify-content: space-between;
+}
+
+
+#Role_usuarios{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+
+#BotonEnviar{
+    
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#BotonCancelar{
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+    margin-right: 20px;
+    align-items: center;
+}
